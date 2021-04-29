@@ -158,7 +158,6 @@ padding: 0 0 0 30px;
 
 .headline{
     padding-top: 96px;
-    padding-bottom: 48px;
 }
 
 .p{
@@ -265,6 +264,8 @@ padding: 0 0 0 30px;
 .footer_top_heading{
     font-size: 19.96px;
     line-height: 24px;
+    color: #FBFBFB;
+    padding-top: 28.07px;
 }
 
 .footer_top_text{
@@ -272,6 +273,8 @@ padding: 0 0 0 30px;
     font-size: 13.972px;
     line-height: 17px;
     text-align: center;
+    color: #FBFBFB;
+    padding-top: 16px;
 }
 
 .footer_body{
@@ -282,6 +285,11 @@ padding: 0 0 0 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly; 
+}
+
+.footer_subcribe_input{
+    display: flex;
+    justify-content: center;
 }
 
 .footer_body_subscribe{
@@ -311,8 +319,8 @@ padding: 0 0 0 30px;
 }
 
 .footer_body_subcribe_right{
-    margin-top: 150px;
-    margin-left: 223.26px;
+    margin-top: 100px;
+    margin-left: 126.26px;
     height: 142px;
     width: 557px;
     text-align: center;
@@ -344,13 +352,26 @@ border-radius: 20px 0px 0px 20px;
 border: none;
 }
 
+.subcribe_input:focus{
+outline: none;
+background-color: gray;
+color: white;
+transition: all 1s;
+}
+
 .subcribe_button{
     height: 49px;
     width: 100px;
     background-color:  #F16D7F;
     border-radius: 0px 20px 20px 0;
     border: none;
-}
+    }
+
+.subcribe_button:hover{
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 1s;
+}   
 
 .footer_lower{
     background-color: black;
@@ -367,9 +388,110 @@ border: none;
 .footer_copy{
     font-size: 16px;
     line-height: 19px;
+    color: #FBFBFB;
     }
 
 .footer_basement {
     margin-bottom: 23px;
     margin-right: 35 px;
 }
+
+/* Страница Catalog */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;
+}
+
+.nav{
+    height: 148px;
+    width: 100%;
+    background-color: #F8F3F4;
+}
+
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_left{
+padding-top: 30px;
+}
+
+.nav_left_text{
+    font-size: 24px;
+line-height: 29px;
+color: #F16D7F;
+}
+
+.nav_right{
+   padding-top: 55px;
+}
+
+.nav_right p{
+    font-size: 14px;
+line-height: 17px;
+color: #636363;
+}
+
+.nav_right span{
+    font-size: 14px;
+line-height: 17px;
+color: #F16D7F;
+}
+
+.headline_menu{
+    /* margin-top: 51px; */
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 74px;
+}
+
+.headline_menu_filter{
+    display: flex;
+}
+.headline_menu_filter p{
+    font-size: 14px;
+line-height: 17px;
+color: #000000;
+}
+
+.menu_p{
+    color: green;
+}
+
+.headline_menu_center{
+    display: flex;
+ margin-left: 33%;
+
+}
+
+.headline_menu_center p{
+    font-size: 14px;
+line-height: 17px;
+color: #6F6E6E;
+}
+
+ .menu_center_box{
+     padding-right: 10px;
+     display: flex;
+     justify-content: space-between;
+ }
