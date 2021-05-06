@@ -1,0 +1,306 @@
+*{
+    color:white;
+}
+
+.container{
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+    }
+
+.header{
+    background-color: black;
+    padding: 18px 0 19px 0;
+    &_container{
+        display: flex;
+        justify-content: space-between;
+    }
+    &_logo{
+        margin: 0 41px 0 0;
+    }
+    &_nav a:not(:last-child){
+        margin: 0 33px 0 0;
+    }
+
+
+}
+
+.headline{
+    padding-top: 96px;
+    display: flex;
+  
+}
+
+.box{
+    &_block{
+       display: flex; 
+        width: 652px;
+       margin-bottom: 42px; 
+        box-shadow: 0.4em 0.4em 5px 
+        rgba(122,122,122,0.5);
+    }
+    &_card {
+        width: 262px;
+        height: 306px;
+         }
+    &_card_text{
+          width: 390px;
+          height: 306px;  
+        }
+    &_card_text_heading{
+        font-size: 24px;
+        line-height: 29px;
+        color: #222222;
+        padding-left: 31px;
+        padding-top: 22px;
+        padding-bottom: 42px;
+        width: 262px;
+        }
+    &_card_text_li{
+        padding-left: 31px;
+        }    
+    &_card_li_text{
+        font-size: 22px;
+        line-height: 26px;
+        color: #575757;
+        list-style-type: none;
+        }
+    &_card_li_text span{
+        color: #F16D7F;
+        }    
+    &_card_text_li_input{
+        width: 44px;
+        margin-left: 24px;
+        }
+    &_card_button{
+        height: 25px;
+        width: 25px;
+        display: flex;
+        background: white;
+        border: none;
+        margin-right: 22px;
+        margin-top: 28px;
+        }
+    &_button{
+     display: flex;
+     justify-content: space-between;
+    } 
+    &_button_text{
+        font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    height: 49px;
+    width: 234px;
+    }   
+}
+.box_right{
+    padding-left:128px;
+    &_top p{
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #222222;
+    }
+    &_top input{
+        margin-bottom: 21px;
+        width: 358.99px;
+        height: 44px;
+    }
+    &_top button{
+        font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+    width: 100.39px;
+    height: 34px;
+    }
+    &_lower{
+        display: flex;
+    justify-content: center;
+        height: 214px;
+        background: #F5F3F3;
+     margin-top: 57px;
+    }
+    &_lover_price{
+        margin-top: 7%;
+    }
+    &_lover_text{
+        width: 273px;
+    }
+    &_lover_text {
+        text-align: right;
+        font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+    }
+    &_lover_text2{
+        text-align: right;
+        font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    }
+    &_lover_text2 span {
+        text-align: right;
+        font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color:  #F16D7F;
+    }
+    &_lover_line{
+    background: #E2E2E2;
+    height: 1px;
+    }
+    &_lover_button{
+        margin-top: 17px;
+        height: 50px;
+        width: 100%;
+        left: 65.88%;
+        right: 17.06%;
+        top: 45.02%;
+        bottom: 52.12%;
+        background: #F16D7F;
+    }
+}
+
+.footer{
+    margin-top: 95.5px;
+    &_body{
+        height: 448px;
+        width: auto;
+        background: url('img/photo\ subscribe.jpg')  no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly; 
+    }
+    
+    &_subcribe_input{
+        display: flex;
+        justify-content: center;
+    }
+    
+    &_body_subscribe{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;   
+    }
+    
+    &_body_subcribe_left{
+        margin-top: 86.59px;
+        height: 225px;
+        width: 359.45px;
+        text-align: center;
+    }
+    
+    &_body_subcribe_left_text{
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #222224;
+    
+    }
+    
+    &_body_subcribe_left_text span{
+        font-style: italic;
+        color: black;
+    }
+    
+    &_body_subcribe_right{
+        margin-top: 100px;
+        margin-left: 126.26px;
+        height: 142px;
+        width: 557px;
+        text-align: center;
+    }
+    
+    &_body_subcribe_right_top{
+        font-size: 24px;
+        text-align: center;
+        color: #222224;
+        margin-bottom: 0;
+        font-weight: bolder;
+    }
+    
+    &_body_subcribe_right_text {
+        size: 8px;
+        text-align: center;
+        color: black;
+    }
+    &_lower{
+        background-color: black;
+        min-height: 79px;
+    }
+    &_lower_box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+    &_copy{
+        font-size: 16px;
+        line-height: 19px;
+        color: #FBFBFB;
+        }
+    &_basement {
+        margin-bottom: 23px;
+        margin-right: 35 px;
+    }
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+.subcribe_input{
+height: 49px;
+width: 256px;
+background: #E1E1E1;
+border-radius: 20px 0px 0px 20px;
+border: none;
+}
+
+.subcribe_input:focus{
+outline: none;
+background-color: gray;
+color: white;
+transition: all 1s;
+}
+
+.subcribe_button{
+    height: 49px;
+    width: 100px;
+    background-color:  #F16D7F;
+    border-radius: 0px 20px 20px 0;
+    border: none;
+    }
+
+.subcribe_button:hover{
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 1s;
+}   
+
+.nav{
+    height: 148px;
+    width: 100%;
+    background-color: #F8F3F4;
+    &_container{
+        display: flex;
+        justify-content: space-between;
+    }
+    &_left{
+    padding-top: 30px;
+    }
+    &_left_text{
+        font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    }
+}
+
