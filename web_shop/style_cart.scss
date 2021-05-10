@@ -304,3 +304,102 @@ transition: all 1s;
     }
 }
 
+// страница Registration
+.data_input{
+    width: 360px;
+    &_info {
+        & p{
+            font-family: Lato;
+            font-style: normal;
+            color: #222222;
+            bottom: 21px;
+        }
+        & input{
+            width: 100%;
+            height: 44px;
+            margin-bottom: 21px;
+            border: 1px solid #A4A4A4;
+        }
+        &_txt{
+            font-size: 13px;
+            line-height: 16px;
+            color: #B1B1B1;
+        }
+        & button {
+            height: 50px;
+            width: 167px;
+            background: #F16D7F;
+            border: none;
+            transition:  cubic-bezier(0,.82,.69,.29)
+        }
+        & button:hover{
+            // height: 70px;
+            // width: 187px;
+            animation: change-color 2s infinite alternate;    
+        }
+    }
+     &_label{
+            display: flex;
+            justify-content: space-around;
+            bottom: 35px;
+        & label{
+            display: flex;
+            justify-content: space-around;
+        }    
+        & input{
+                width: 20px;
+                margin-right: 10px;
+            }   
+        } 
+}
+
+.right_box{
+    width: 510px;
+    margin-left: 129.51px;
+    padding-top: 18px;
+    & header{
+        cursor: pointer;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        transition: transform 3s;
+    }
+    & header:hover{
+        color: saddlebrown;
+        transform: rotate(360deg);
+    }
+    & p{
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+    }
+    & span{
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+     }
+     & svg:hover {
+         width: 30px;
+         height: 26px;
+     }
+}
+@keyframes change-color {
+    0% {
+       background-color: #F16D7F;
+    }
+    20% {
+       background-color: #F16D7F;
+    }
+    40% {
+       background-color: #F16D7F;
+    }
+     60% {
+       transform: rotateX(360deg);
+      
+     }
+    100% {
+      background-color: #F16D7F;
+    }
+    
+  }
+
