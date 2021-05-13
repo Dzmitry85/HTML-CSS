@@ -6,36 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <title>Document</title>
+    <title>Index</title>
+    <script src="https://kit.fontawesome.com/28aa9b1bb7.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class='header'>
         <div class='container header_container'>
             <div class='header_left'>
                 <a class='header_logo' href="#">
-                    <img width="44" height="38" src="img/Group 2.svg" alt="logo">
+                    <img width="44" height="38" src="img/Group2.svg" alt="logo">
                 </a>
-                <img width="26" height="26.79" src="img/Forma 1.svg" alt="logo">
+                <img width="26" height="26.79" src="img/Forma1.svg" alt="logo">
             </div>
             <div class='header_right'>
-                <div class='header_nav'>
-                    <a href="#">
-                        <img width="32" height="23" src="img/menu.svg" alt="logo">
-                    </a>
+                    <details class="burger">
+    <summary class="burger_top_heider"><svg width="32" height="26" viewBox="0 0 32 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 23V20.31H32V23H0ZM0 12.76V10.07H32V12.76H0ZM0 2.69V0H32V2.69H0Z" fill="#E8E8E8"/>
+        </svg> 
+    </summary>
+    <div class="burger-content">
+            <h1>Menu</h1>
+            <p class='burger-menu_p'>MAN</p>
+        <ul class="burger-list">
+          <li class="filter-item"><a href="" class="burger-link">Accessories</a></li>
+          <li class="filter-item"><a href="" class="burger-link">Bags</a></li>
+          <li class="filter-item"><a href="" class="burger-link">Denim</a></li>
+          <li class="filter-item"><a href="" class="burger-link">T-Shirts</a></li>
+        </ul>
+            <p class='burger-menu_p'>WOMAN</p>
+        <ul class="burger-list">
+          <li class="filter-item"><a href="" class="burger-link">Accessories</a></li>
+          <li class="filter-item"><a href="" class="burger-link">Jackets & Coats</a></li>
+          <li class="filter-item"><a href="" class="burger-link">Polos</a></li>
+          <li class="filter-item"><a href="" class="burger-link">T-Shirts</a></li>
+          <li class="filter-item"><a href="" class="burger-link">Shirts</a></li>
+            <p class='burger-menu_p3'>KIDS</p>
+            <ul class="burger-list3">
+                <li class="filter-item"><a href="" class="burger-link">Accessories</a></li>
+                <li class="filter-item"><a href="" class="burger-link">Jackets & Coats</a></li>
+                <li class="filter-item"><a href="" class="burger-link">Polos</a></li>
+                <li class="filter-item"><a href="" class="burger-link">T-Shirts</a></li>
+                <li class="filter-item"><a href="" class="burger-link">Shirts</a></li>
+                <li class="filter-item"><a href="" class="burger-link">Bags</a></li>
+        </ul>
+    </div>
+  </details>
                     <a href="#">
                         <img width="29" height="29" src="img/contacts.svg" alt="logo">
                     </a>
                     <a href="#">
                         <img width="32" height="29" src="img/carsin.svg" alt="logo">
                     </a>
-                </div>
             </div>
         </div>
+      
     </header>
 
     <main>
         <div class='promo'>
-            <div class='container promo_container'>
+            <div class=' promo_container'>
+                <div class='promo_img'>
+                    <img src="img/man.png" alt="">
+                </div>
                 <div class='promo_text'>
                     <h1>THE BRAND <br><span class='promo_sp'> OF LUXERIOUS <span class='promo_decor'>FASION</span> </span></h1>
                 </div>
@@ -45,27 +77,37 @@
         <div class='product'>
             <div class='container product_container'>
                 <div class='product_card card1'>
-                    <span class='card1_text'> <p> 30% OFF </p> <span class='card_decor'>FOR WOMEN</span></span>
+                    <img class='product_card_img 'src="img/woman.png" alt="">
+                    <span class='card1_text'> 
+                        <p> 30% OFF </p>
+                         <span class='card_decor'>FOR WOMEN</span></span>
+                    
                 </div>
-                <div class='product_card card2'>
-                    <span class='card2_text'> <p> HOT DEAL </p> <span class='card_decor'>FOR MEN</span> </span>
+                <div class='product_card card1'>
+                    <img class='product_card_img ' src="img/man-box.png" alt="">
+                    <div class='card1_text'> 
+                        <p> HOT DEAL </p> 
+                        <span class='card_decor'>FOR MEN</span> 
+                    </div>
                 </div>
-                <div class='product_card card3'>
-                    <span class='card3_text'> <p> NEW ARRIVALS</p>  <span class='card_decor'>FOR KIDS</span> </span>
+                <div class='product_card card1'>
+                    <img class='product_card_img' src="img/kids.png" alt="">
+                    <span class='card1_text'> <p> NEW ARRIVALS</p>  <span class='card_decor'>FOR KIDS</span> </span>
                 </div>
                 <div class='product_card card4'>
+                    <img  class="product_card4_img" src="img/accsesories.png" alt="">
                     <span class='card4_text'> <p> LUXIROUS & TRENDY </p><span class='card_decor'> ACCESORIES</span></span>
                 </div>
             </div>
         </div>
     </main>
    <div class='headline'>
-       <p class='p'>Fetured Items</p>
+       <p class='headline_header'>Fetured Items</p>
        <p class='p1'>Shop for items based on what we featured in this week</p>
    </div class="box">
     <div class='box_block container'>
          <div class='box_card card_1'>
-             <img src="img/Box_1.png" alt="logo">
+             <img class='box_card_img' src="img/Box_1.png" alt="logo">
         <div class='box_text'>
             <span class='box_header'>ELLERY X M'O CAPSULE</span>
             <p class='box_p'>Known for her sculptural takes on traditional tailoring, 
@@ -74,7 +116,7 @@
         </div>   
         </div>
         <div class='box_card'>
-            <img src="img/Box_2.png" alt="logo">
+            <img class='box_card_img'src="img/Box_2.png" alt="logo">
             <div class='box_text'>
                 <span class='box_header'>ELLERY X M'O CAPSULE</span>
                 <p class='box_p'>Known for her sculptural takes on traditional tailoring, 
@@ -83,7 +125,7 @@
             </div>     
             </div>
             <div class='box_card'>
-                <img src="img/Box_3.png" alt="logo">
+                <img class='box_card_img' src="img/Box_3.png" alt="logo">
                 <div class='box_text'>
                     <span class='box_header'>ELLERY X M'O CAPSULE</span>
                     <p class='box_p'>Known for her sculptural takes on traditional tailoring, 
@@ -91,10 +133,8 @@
                         <p class='box_price'> $52.00</p>
                 </div>      
              </div>
-         </div>
-         <div class='box_block container'>
             <div class='box_card'>
-                <img src="img/Box_4.png" alt="logo">
+                <img class='box_card_img' src="img/Box_4.png" alt="logo">
                 <div class='box_text'>
                     <span class='box_header'>ELLERY X M'O CAPSULE</span>
                     <p class='box_p'>Known for her sculptural takes on traditional tailoring, 
@@ -103,7 +143,7 @@
                 </div>      
            </div>
            <div class='box_card'>
-            <img src="img/Box_5.png" alt="logo">
+            <img class='box_card_img' src="img/Box_5.png" alt="logo">
             <div class='box_text'>
                 <span class='box_header'>ELLERY X M'O CAPSULE</span>
                 <p class='box_p'>Known for her sculptural takes on traditional tailoring, 
@@ -112,7 +152,7 @@
             </div>    
                </div>
                <div class='box_card'>
-                <img src="img/Box_6.png" alt="logo">
+                <img class='box_card_img' src="img/Box_6.png" alt="logo">
                 <div class='box_text'>
                     <span class='box_header'>ELLERY X M'O CAPSULE</span>
                     <p class='box_p'>Known for her sculptural takes on traditional tailoring, 
