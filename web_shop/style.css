@@ -51,11 +51,11 @@
     list-style-type: none;
 }
 .burger-content {
-    /* margin-top: 51%; */
+    margin-top: 74%;
     position: absolute;
     background-color: white;
-    width: 360px;
-    left: 0;
+    width: 262px;
+    left: -24px;
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
 }
 .burger-content h1{
@@ -486,7 +486,7 @@ input::placeholder {
     list-style-type: none;
 }
 .filter[open] {
-    padding-left: 10px;
+    /* padding-left: 10px; */
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
 }
 .filter[open] > summary {
@@ -545,11 +545,11 @@ input::placeholder {
 }
 
 .fiter-centr_box {
-    margin-left: 37%;
+    /* margin-left: 37%; */
     position: absolute;
     background-color: #fff;
-    width: 360px;
-    left: 0;
+    width: 231px;
+    left: 541px;
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
 }
 .filter-item-size label {
@@ -667,6 +667,13 @@ input::placeholder {
     width: 63px;
     margin-left: 48%;
 }
+.heading_text{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 143.1%;
+    text-align: center;
+    color: #5E5E5E;
+    }
 .heading_top_line_text {
     font-weight: 300;
     font-size: 14px;
@@ -700,8 +707,13 @@ input::placeholder {
     margin-left: 10px;
     }    
 .header_right {
-    margin-right: 10px;
-    }     
+    margin-right: 34px;
+    }  
+.burger-content{
+    width: 207px;
+    left: -84px;
+    z-index: 1;
+    }       
  .promo_img img{
      height: 368px;
     }
@@ -760,23 +772,49 @@ input::placeholder {
     } 
 .footer_basement {
     margin-right: 20px;
-    }            
+    } 
+      /* страница Catalog */
+.nav_left{
+    margin-left: 20px;
+    }
+.nav_right{
+    margin-right: 20px;
+    }           
+.filter{
+    margin-right: 53%
+    }
+       /* страница Product */
+.heading_top_line{
+    margin-left: 46%;
+    }
+  .headline_line{
+    margin-left: 10%;
+    }
+  .headline_button_product{
+    margin-left: 34%;
+    }
+    
 }
 
-@media( max-width:1024px ){
+/* @media( max-width:1024px ){ */
     /* страница Index */
-.product_card:not(:last-child){
+/* .product_card:not(:last-child){
         width: 257px;
     }
 .footer_body_subcribe_right{
     margin-left: 0px;
     }   
-}
+} */
 
 @media( max-width:624px ){
     /* страница Index */
-.header_right a{
+.header_right_registration,
+.header_right_cart {
     display: none;
+    }
+.burger-content{
+    width: 155px;
+    left: -86px;
     }
 .promo{
     display: flex;
@@ -797,14 +835,90 @@ input::placeholder {
     margin-left: 10px;
     margin-right: 10px;
     }    
-    .footer_top_position{
+.footer_top_position{
         display: flex;
         margin-left: 0px;
     }
-    .subcribe_input{
+.subcribe_input{
         width: 190px;
     }
-    .footer_lower_box{
+.footer_lower_box{
         justify-content: center;
     }
+       /* страница Catalog */
+.nav_container{
+    display: contents;
+    justify-content: center;
+    }
+.nav_left{
+    padding-top: 7px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    }
+.nav_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    margin-right: 0px;
+    }
+.filter{
+    margin-right: 0px;
+    width: 44px;
+    }
+.fiter-content{
+    width: 277px;
+    }
+.filter[open] > summary {
+    color: white;
+    }
+.filter_top_heider{
+    color: white;
+    }    
+.filter_top_heider svg{
+    height: 25px;
+    width: 37.5px;
+    }
+.fiter-centr_box{
+    width: 197px;
+    left: 115px;
+}
+.box_block{
+    margin-left: 2px;
+    margin-right: 2px;
+    }
+
+.pagination a{
+    padding: 4px 12px;
+    }  
+    /* страница Product */
+.picture_product img{
+    width: 243px;
+    }
+.headline{
+    margin-top: 85px;
+    }        
+.headline_info{
+    margin-top: 0px;
+    }
+.heading_top_line {
+    margin-left: 40%;
+    }
+.heading_text{
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+.headline_line{
+    width: 174px;
+    margin-left: 23%;
+    } 
+.menu_box_product p{
+    font-size: 10px;
+    line-height: 12px;
+    } 
+.headline_button_product{
+    margin-left: 18%;
+    }
+
 }
